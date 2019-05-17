@@ -1,4 +1,4 @@
-FROM node:8.10-alpine
+FROM node:10-alpine
 
 # Install bash, ssh client and git
 RUN apk add --update bash openssh git
